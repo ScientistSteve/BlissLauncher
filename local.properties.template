@@ -1,0 +1,12 @@
+# local.properties.template
+
+# To configure your SDK and NDK paths, and API key injection, please fill in the following fields.
+
+# Path to your Android SDK
+sdk.dir=/path/to/sdk
+
+# Path to your Android NDK
+ndk.dir=/path/to/ndk
+
+# Your CurseForge API Key
+curseforge.api.key=YOUR_API_KEY
