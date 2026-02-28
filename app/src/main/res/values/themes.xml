@@ -1,0 +1,35 @@
+<resources>
+    <!-- Base application theme -->
+    <style name="Theme.BlissLauncher" parent="Theme.Material3.DayNight">
+        <!-- Material 3 theme -->
+        <item name="colorPrimary">?attr/colorPrimary</item>
+        <item name="colorOnPrimary">?attr/colorOnPrimary</item>
+        <item name="colorSecondary">?attr/colorSecondary</item>
+        <item name="colorOnSecondary">?attr/colorOnSecondary</item>
+        <item name="android:colorAccent">?attr/colorAccent</item>
+        <item name="android:windowBackground">?attr/colorBackground</item>
+        
+        <!-- Dynamic color support for Android 12+ -->
+        <item name="android:dynamicColor">true</item>
+        
+        <!-- Typography -->
+        <item name="fontFamily">@font/nunito</item>
+        <item name="android:fontFamily">@font/roboto_flex</item>
+    </style>
+
+    <!-- Night theme -->
+    <style name="Theme.BlissLauncher.Night" parent="Theme.Material3.DayNight">
+        <item name="android:windowBackground">?attr/colorBackground</item>
+    </style>
+
+    <!-- Light theme -->
+    <style name="Theme.BlissLauncher.Light" parent="Theme.Material3.Light">
+        <item name="android:windowBackground">?attr/colorBackground</item>
+    </style>
+
+    <!-- Fallback palette -->
+    <style name="TealIndigoPalette">
+        <item name="colorPrimary">#00796B</item>
+        <item name="colorSecondary">#3F51B5</item>
+    </style>
+</resources>
