@@ -1,0 +1,22 @@
+# Gradle files
+.gradle/
+build/
+
+# Local configuration file (sdk path, etc)
+local.properties
+
+# Built application files
+*.apk
+*.aab
+
+# IDE files
+.idea/
+
+# Cache directory
+*.iml
+
+# macOS
+.DS_Store
+
+# Android Studio cache directories
+*.gradle/caches/
